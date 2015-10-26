@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F90F7F4F1BDEACE800241908 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F4E1BDEACE800241908 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F90F7F641BDEAD2400241908 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F571BDEAD2400241908 /* Common.h */; };
+		F90F7F641BDEAD2400241908 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F571BDEAD2400241908 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F90F7F651BDEAD2400241908 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F591BDEAD2400241908 /* crypt.h */; };
 		F90F7F661BDEAD2400241908 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F90F7F5A1BDEAD2400241908 /* ioapi.c */; };
 		F90F7F671BDEAD2400241908 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F5B1BDEAD2400241908 /* ioapi.h */; };
@@ -18,7 +18,7 @@
 		F90F7F6B1BDEAD2400241908 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F5F1BDEAD2400241908 /* unzip.h */; };
 		F90F7F6C1BDEAD2400241908 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = F90F7F601BDEAD2400241908 /* zip.c */; };
 		F90F7F6D1BDEAD2400241908 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F611BDEAD2400241908 /* zip.h */; };
-		F90F7F6E1BDEAD2400241908 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F621BDEAD2400241908 /* SSZipArchive.h */; };
+		F90F7F6E1BDEAD2400241908 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F90F7F621BDEAD2400241908 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F90F7F6F1BDEAD2400241908 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F7F631BDEAD2400241908 /* SSZipArchive.m */; };
 		F90F7F711BDEAD6600241908 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F7F701BDEAD6600241908 /* libz.tbd */; };
 /* End PBXBuildFile section */
@@ -115,14 +115,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90F7F641BDEAD2400241908 /* Common.h in Headers */,
 				F90F7F651BDEAD2400241908 /* crypt.h in Headers */,
+				F90F7F6E1BDEAD2400241908 /* SSZipArchive.h in Headers */,
 				F90F7F6D1BDEAD2400241908 /* zip.h in Headers */,
 				F90F7F4F1BDEACE800241908 /* ZipArchive.h in Headers */,
-				F90F7F641BDEAD2400241908 /* Common.h in Headers */,
 				F90F7F6B1BDEAD2400241908 /* unzip.h in Headers */,
 				F90F7F671BDEAD2400241908 /* ioapi.h in Headers */,
 				F90F7F691BDEAD2400241908 /* mztools.h in Headers */,
-				F90F7F6E1BDEAD2400241908 /* SSZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
